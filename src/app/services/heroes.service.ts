@@ -55,9 +55,7 @@ export class HeroesService {
     }
   ];
 
-  constructor() {
-    console.log("Servicio Listo")
-  }
+  constructor() { }
   get() {
     return this.heroes;
   }
